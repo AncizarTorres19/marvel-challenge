@@ -26,8 +26,10 @@ export const getCharacters = async (offset) => {
 
 // Función para obtener un comic específico por url
 export const getCharacterById = async (url) => {
+    // Reemplazar "http://" con "https://"
+    const urlConHttps = url.replace("http://", "https://");
     try {
-        const response = await axios.get(url, {
+        const response = await axios.get(urlConHttps, {
             params: {
                 ts: TIMESTAMP,
                 apikey: API_KEY,
