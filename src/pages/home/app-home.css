@@ -1,0 +1,106 @@
+.home {
+  display: grid;
+  min-height: 100vh;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .home {
+    grid-template-columns: 1fr 19.875rem;
+  }
+}
+
+.button {
+  padding: 0.75rem 0.75rem;
+  background-color: #ec1e23;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.character__title {
+  display: flex;
+  align-items: center;
+  gap: 0 1.5rem;
+  padding-right: 1.25rem;
+}
+
+.character__title span {
+  flex-grow: 1;
+}
+
+.character-list {
+  display: grid;
+  gap: 2.5rem;
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .character-list {
+    grid-template-columns: repeat(auto-fit, minmax(26.875rem, 1fr));
+  }
+}
+
+.character-card {
+  display: grid;
+  padding: 1.25rem;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 45rem) {
+  .character-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.character-card .image {
+  margin-top: -2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 45rem) {
+  .character-card .image {
+    margin-left: -2.5rem;
+    transform: translateX(0);
+  }
+}
+
+.character-card .info .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (min-width: 45rem) {
+  .character-card .related-comics-container {
+    grid-column: span 2;
+  }
+}
+
+.character-card .related-comics-container .related-comics-list {
+  display: grid;
+  gap: 0.25rem 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 45rem) {
+  .character-card .related-comics-container .related-comics-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.character-card .related-comics-container .related-comics-list li {
+  cursor: pointer;
+}
+
+.character-card .related-comics-container .related-comics-list li:hover {
+  color: royalblue;
+}
