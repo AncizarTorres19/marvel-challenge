@@ -60,6 +60,7 @@ El proyecto utiliza las siguientes devDependencies:
 
 ## Despliegue
 El proyecto está desplegado en [Netlify](https://www.netlify.com/). Puedes acceder a la versión en vivo del proyecto en [este enlace](https://elegant-bavarois-530cef.netlify.app/).
+El proyecto está desplegado en [Vercel](https://vercel.com/). Puedes acceder a la versión en vivo del proyecto en [este enlace](https://marvel-challenge-prueba.vercel.app/).
 
 ## Repositorio
 El proyecto se encuatra alojado en git hub. Puedes acceder al repositorio en[GitHub]. en [este enlace](https://github.com/AncizarTorres19/marvel-challenge)
