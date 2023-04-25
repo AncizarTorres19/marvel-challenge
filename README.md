@@ -41,3 +41,25 @@ El proyecto utiliza las siguientes devDependencies:
 - `eslint-plugin-react-refresh`: Un plugin para eslint que permite el uso de la función `React.refresh()` para recargar componentes de React en desarrollo.
 - `standard`: Un conjunto de reglas de estilo y guías de estilo para JavaScript.
 - `vite`: Una herramienta de compilación y desarrollo rápida para proyectos web.
+
+- `@testing-library/react`: Librería para realizar pruebas en React.
+- `@types/react`: Tipos de TypeScript para React.
+- `@types/react-dom`: Tipos de TypeScript para ReactDOM.
+- `@vitejs/plugin-react`: Un plugin de Vite para trabajar con React.
+- `@vitest/ui`: Interfaz de usuario de Vitest para visualizar las pruebas.
+- `dotenv`: Un paquete para cargar variables de entorno desde un archivo `.env`.
+- `eslint`: Una herramienta de linting para JavaScript.
+- `eslint-plugin-react`: Un plugin para eslint que proporciona reglas específicas para trabajar con React.
+- `eslint-plugin-react-hooks`: Un plugin para eslint que proporciona reglas específicas para el uso correcto de los hooks de React.
+- `eslint-plugin-react-refresh`: Un plugin para eslint que permite el uso de la función `React.refresh()` para recargar componentes de React en desarrollo.
+- `jest`: Un framework de pruebas para JavaScript.
+- `jsdom`: Una implementación de DOM en JavaScript para pruebas.
+- `standard`: Un conjunto de reglas de estilo y guías de estilo para JavaScript.
+- `vite`: Una herramienta de compilación y desarrollo rápida para proyectos web.
+- `vitest`: Un framework de pruebas para proyectos Vite.
+
+## Despliegue
+El proyecto está desplegado en [Netlify](https://www.netlify.com/). Puedes acceder a la versión en vivo del proyecto en [este enlace](https://elegant-bavarois-530cef.netlify.app/).
+
+## Repositorio
+El proyecto se encuatra alojado en git hub. Puedes acceder al repositorio en[GitHub]. en [este enlace](https://github.com/AncizarTorres19/marvel-challenge)
